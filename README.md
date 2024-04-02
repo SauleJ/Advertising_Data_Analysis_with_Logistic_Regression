@@ -4,7 +4,7 @@ This repository contains R code for analyzing advertising data using logistic re
 
 ## Description
 
-The R script `ads_analysis.R` performs a comprehensive analysis of advertising data to evaluate the effectiveness of ad campaigns. It includes the following steps:
+The R script `Ads_Analysis.R` performs a comprehensive analysis of advertising data to evaluate the effectiveness of ad campaigns. It includes the following steps:
 
 1. **Data Loading:** The script loads the advertising data from the file `Ads.csv` into R for analysis.
 
@@ -23,12 +23,3 @@ The R script `ads_analysis.R` performs a comprehensive analysis of advertising d
 8. **Model Evaluation:** It evaluates the logistic regression models by examining summary statistics, odds ratios, and model fit statistics such as AIC and Chi-square tests.
 
 9. **Prediction:** The script makes predictions on the testing dataset using the trained logistic regression models and assesses the model performance.
-
-## Usage
-
-1. **Load Data:** Ensure that the advertisement data file `Ads.csv` is placed in the same directory as the R script.
-
-2. **Run the Script:** Execute the R script `ads_analysis.R` in your preferred R environment.
-
-3. **Interpret Results:** Review the generated outputs to gain insights into the effectiveness of advertising campaigns and the predictive performance of the logistic regression models.
-
